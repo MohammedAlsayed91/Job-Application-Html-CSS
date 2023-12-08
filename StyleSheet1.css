@@ -1,0 +1,102 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background: linear-gradient(to right, #e19a9a, burlywood); 
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+label::after {
+    content: " *";
+    color: red;
+}
+
+label[for="secondEamil"]::after,
+label[for="GPA"]::after,
+label[for="yes"]::after,
+label[for="no"]::after,
+label[for="Imediatly"]::after,
+label[for="Notice"]::after {
+    content: none;
+}
+
+
+
+footer {
+    list-style-type: none;
+    display: block;
+    padding-block: 30px; 
+    background-color:burlywood;
+    padding-top:20px;
+   
+}
+
+footer ul li{
+    list-style-type:none;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-grow: 1; 
+    margin: 0 10px; 
+}
+
+
+
+
+header {
+    display: block;
+    padding-block: 20px;
+    background-color: burlywood;
+}
+
+header h3{
+    text-align:center;
+}
+
+header img{
+    width:100px ;
+    display:block;
+  
+}
+
+nav ul li{
+    list-style-type:none;
+    text-align :center;
+    text-decoration:none;
+    display:inline-block;
+    padding-left:50px;
+}
+
+.LastName{
+    margin-left:30px;
+}
+
+
+label[for="MaritalStatus"] {
+    margin-left:30px;
+}
+
+.flexcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-left:20px;
+}
+
+
